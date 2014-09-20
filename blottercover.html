@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <style>
+        /* Custom default button */
+        .btn-default,
+        .btn-default:hover,
+        .btn-default:focus {
+            color: #333;
+            text-shadow: none; /* Prevent inheritence from `body` */
+            background-color: #fff;
+            border: 1px solid #fff;
+        }
+        /*
+         * Base structure
+         */
+
+        html,
+                body {
+            height: 100%;
+            background-color: #333;
+        }
+        body {
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 1px 3px rgba(0,0,0,.5);
+        }
+    </style>
+
+</head>
+<body>
+<div class="inner cover">
+    <h1 class="cover-heading"><u>Note To The User.</u></h1><br>
+    <p class="lead">The OpenPGH group has processed the data from the City of Pittsburgh <a
+            href="http://communitysafety.pittsburghpa.gov/Blotter.aspx">Police Blotter Daily PDFs</a>.
+        Our processing reads the data from the PDF and converts the information into our map presentation.
+        We strive to provide the best analysis of the data, but we are limited to the accuracy of the contents and the number of incidents provided by the City of Pittsburgh Police Department.
+        It is important that any decisions based on this data be confirmed by using additional resources.</p>
+
+    For the avoidance of doubt, the we do not claim an ownership to the City Data
+    <p class="lead">
+        <a href="http://ec2-54-90-254-168.compute-1.amazonaws.com/blotter/" class="btn btn-lg btn-default">Continue</a>
+    </p>
+</div>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
